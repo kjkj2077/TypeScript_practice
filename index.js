@@ -10,3 +10,9 @@ function 함수(x) {
 }
 let john = [123, true];
 let ko = { name: 'kim' };
+//클래스
+class User {
+    constructor(name) {
+        this.name = name;
+    }
+}
