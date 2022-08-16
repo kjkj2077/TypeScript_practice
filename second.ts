@@ -1,6 +1,6 @@
 //함수에 타입 지정하는법 & void타입  , narrowing & assertion
 //tsc -w 터미널에 입력하면 자동으로 Js로 변환됨. 파일사용시는 당연히 js를.
-function 함수(x: number): number { // x? 는 undefined와 같다.
+function 함수11(x: number): number { // x? 는 undefined와 같다.
     return x * 2
 }
 
@@ -8,7 +8,7 @@ function 함수2(x: number): void { //return 할것이 없으면 void를 적어�
     x * 2
 }
 
-함수(2) //타입지정된 파라미터는 필수임.
+함수11(2) //타입지정된 파라미터는 필수임.
 
 function 함수3(x: number | string) {
     if (typeof x == 'string') {

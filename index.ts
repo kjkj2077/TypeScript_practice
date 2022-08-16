@@ -9,7 +9,7 @@ type Type = string | number;
 let 둘다하기: Type = 123;
 
 //함수의 경우
-function 함수(x: number): number { //x에 number들어가야하며, 리턴값도 number로해야함.
+function 함수10(x: number): number { //x에 number들어가야하며, 리턴값도 number로해야함.
     return x * 2
 }
 
